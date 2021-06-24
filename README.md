@@ -6,7 +6,7 @@ __Note that most of the MATLAB code is copied from [here](https://github.com/mat
 
 
 ## ✅ Prerequisites
----
+
 
 | Knowledge            | Level     |
 | -------------        | ---------- |
@@ -19,7 +19,6 @@ __Note that most of the MATLAB code is copied from [here](https://github.com/mat
 
 
 ## 🎯 Goal
----
 
 The purpose of this project is to implement a speed control system for a simple BLDC motor using the basic knowledge of Simulink, Simscape and Stateflow. 
 
@@ -29,7 +28,7 @@ The purpose of this project is to implement a speed control system for a simple 
 
 
 ## Main Flow
----
+
 This section shows the main steps I followed to achieve the goal.
   
 1. [Simulink onramp](https://www.mathworks.com/learn/tutorials/simulink-onramp.html)
@@ -50,7 +49,7 @@ Each folder contains a README that shows the main work of the relative step.
 
 
 ## 👀 See also
----
+
 Check out [this tech talk video series](https://www.mathworks.com/videos/series/brushless-dc-motors.html) to understand: 
   
 - How brushless DC motors differ from brushed DC motors and how they work
