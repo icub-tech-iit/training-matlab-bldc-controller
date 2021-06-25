@@ -44,7 +44,7 @@ This section shows the main steps I followed to achieve the goal.
 3. [Implementing the commutation logic in order control a BLDC motor at constant speed](3_Commutation_Logic_with_PID_Controller).
     1. [Implementing the PID controller that lets us control the motor at different speeds and simulate motor response](3_Commutation_Logic_with_PID_Controller).
     2. [Replace the commutation logic with a new one using Stateflow](3_Commutation_Logic_with_PID_Controller/Stateflow_version).
-4. [Trying to add a PWM Control with the aim to achieve a more realistic scenarious](4_PWM_Control) (⚠ Work in progress).
+4. [Trying to add a PWM Control with the aim to achieve a more realistic scenarious](4_PWM_Control).
 
 __Note__:
 - Each folder contains a README that shows the main work of the relative step.
