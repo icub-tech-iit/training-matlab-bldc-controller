@@ -1,9 +1,9 @@
-# Simulink implementation simulating the Back-EMF Voltage of a BLDC Motor
+# Introducing the PWM Control of a BLDC motor 
 
 
 ## 🛠 Model and Setup
 
-The provided model lets you simulate a BLDC motor which is driven by a three-phase inverter. Three-phase voltages are modulated directly using PWM that is implemented under the commutation logic subsystem.
+In the Simulink model which is shown in the following snapshot, the three-phase voltages are modulated directly using PWM that is implemented under the commutation logic subsystem.
 
 
 | ![](assets/block_diagram.PNG) |
@@ -11,7 +11,7 @@ The provided model lets you simulate a BLDC motor which is driven by a three-pha
 
 
 ## What's new?!
-1. Added a PWM generator which take the duty cycle as an input and output a pulse that switch between the 2 commutation logics.
+1. Added a PWM generator which take the duty cycle as an input and output a pulse that performs a switch between the 2 commutation logics.
 
 ⚠ Many configuration parameters of the model has been changed respect to the others implementations.
 
@@ -23,4 +23,4 @@ The provided model lets you simulate a BLDC motor which is driven by a three-pha
 
 You can do the following with the provided files:
 
-- Run Simulink model (Modeling_commutation_logic.slx) and open up the Data Inspector to view the logged signals such the desired and measured speeds and supplied voltage to the three-phase inverter.
+- Run Simulink model (simple_speed_control_pt4.slx) and open up the Data Inspector to view the logged signals such the desired and measured speeds and supplied voltage to the three-phase inverter.

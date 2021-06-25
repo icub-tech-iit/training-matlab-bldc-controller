@@ -1,10 +1,9 @@
-# Simulink implementation simulating the Back-EMF Voltage of a BLDC Motor
+# Introducing the Commutation Logic usign Stateflow
 
 
 ## 🛠 Model and Setup
 
-The provided model lets you simulate a BLDC motor which is driven by a three-phase inverter. See the image below.
-
+In this model we are modeling the commutation logic to dynamically change the switch pattern for a continuous rotation of the rotor.
 
 | ![](assets/block_diagram.PNG) |
 | :---------------: |
@@ -13,7 +12,7 @@ In this model we are modeling the commutation logic using a Truth-Table within a
 
 ## What is changed from the previous version?
 
-1. Removed che commutation logic that use the MOSFET circuit.
+1. Removed che commutation logic that use the multi-port switch circuit.
 3. Removed the logic circuit that calculate the sector based on the angle degrees
 2. Realized the commutation logic using a Truth-Table within a Stateflow chart.
 
@@ -26,8 +25,8 @@ The following Truth-Table take the angle as an input and return the right patter
 
 
 | ![](assets/condition_table.PNG) | 
-| :----------------------: |
-| ![](assets/action_table.PNG)    ||
+| :----------------------:        |
+| ![](assets/action_table.PNG)    |
 
 ## Usage
 

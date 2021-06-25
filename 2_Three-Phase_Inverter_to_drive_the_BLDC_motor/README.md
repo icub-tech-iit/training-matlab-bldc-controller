@@ -1,4 +1,4 @@
-# Simulink implementation simulating the Back-EMF Voltage of a BLDC Motor
+# Modeling a Three-Phase Inverter
 
 
 ## 🛠 Model and Setup
@@ -21,7 +21,7 @@ In the model, the BLDC motor is set up to have a single pole pair in the rotor a
 The Three-Phase Inverter has been designed manually in order to better understand its properties.
 Note that a [pre-built](https://www.mathworks.com/help/physmod/sps/ref/converterthreephase.html) block is already provided by Simulink.
 
-__Note__: In this simulation you can observe that after the switch of the phases, the rotor reach a stationary angle position of 30 degrees. This is beacause of none other switches are performed.
+__Note__: In this simulation you can observe that after the switch of the phases, the rotor reach a stationary angle position of 30 degrees. This is beacause of none other switches are performed. Due to the inertia attached to the motor, we can observe a quite overshooting around 30 degrees.
 
 ## Usage
 

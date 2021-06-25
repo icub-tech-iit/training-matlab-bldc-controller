@@ -8,7 +8,7 @@ The provided model shown below lets you simulate a three-phase BLDC motor and ob
 | ![](assets/block_diagram.PNG) |
 | :---------------: |
 
-In this simulation, we create a scenario where we turn the motor shaft at constant speed while having open terminals at all three phases and then measure the voltage produced at one of the phases to observe the back-EMF which is shown in the below picture.
+In this simulation, we created a scenario where we turn the motor shaft at constant speed while having open terminals at all three phases and then measure the voltage produced at one of the phases to observe the back-EMF which is shown in the below picture.
 
 
 <p align="center">
@@ -17,7 +17,7 @@ In this simulation, we create a scenario where we turn the motor shaft at consta
 
 A type of similarly structured motor is the permanent magnet synchronous machine, or PMSM.
 In a second step, we tried to replace the BLDC motor which produces a trapezoidal back-EMF with a PMSM motor which generates a sinusoidal back-EMF. Note that a different type of control algorithm is required to operate these motors (**Field Oriented Control - FOC**).
-The back-EMF if the equivalent PMSM motor is shown in the below picture.
+The back-EMF of the PMSM motor is shown in the below picture.
 
 
 <p align="center">
