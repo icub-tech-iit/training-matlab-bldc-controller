@@ -6,7 +6,7 @@
 The provided model lets you simulate a BLDC motor which is driven by a three-phase inverter. Three-phase voltages are modulated directly using PWM that is implemented under the commutation logic subsystem.
 
 
-| ![](block_diagram.png) |
+| ![](block_diagram.PNG) |
 | :---------------: |
 
 In this model we are modeling the commutation logic to dynamically change the switch pattern for a continuous rotation of the rotor.
@@ -16,7 +16,7 @@ In this model we are modeling the commutation logic to dynamically change the sw
 
 ⚠ Many configuration parameters of the model has been changed respect to the others implementations.
 
-| ![](pwm_commutation_logic.png) |
+| ![](pwm_commutation_logic.PNG) |
 | :---------------: |
 
 
