@@ -48,7 +48,7 @@ This section shows the main steps I followed to achieve the goal.
 
 __Note__:
 - Each folder contains a README that shows the main work of the relative step.
-- Most of the MATLAB code in this repository is copied from [here](https://github.com/mathworks/Design-motor-controllers-with-Simscape-Electricalhttps://github.com/mathworks/Design-motor-controllers-with-Simscape-Electrical).
+- Most of the MATLAB code in this repository is copied from [here](https://github.com/mathworks/Design-motor-controllers-with-Simscape-Electrical).
 - All the sources in this repository has been tested on Matlab R2021a.
 
 
