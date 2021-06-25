@@ -27,8 +27,7 @@ The following Truth-Table take the angle as an input and return the right patter
 
 | ![](condition_table.PNG) | 
 | :----------------------: |
-| ![](action_table.PNG)    |
-| :----------------------: |
+| ![](action_table.PNG)    ||
 
 ## Usage
 
