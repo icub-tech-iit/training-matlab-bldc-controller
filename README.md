@@ -8,7 +8,7 @@ This repository consists of folders containing the MATLAB and Simulink files tha
 | Knowledge            | Level     |
 | -------------        | ---------- |
 | Control Theory       | ⭐⭐   
-| Electronics Theroy   | ⭐⭐
+| Electronics Theory   | ⭐⭐
 | Simulink             | ⭐⭐⭐
 | Stateflow            | ⭐⭐⭐
 | Simscape             | ⭐⭐⭐
