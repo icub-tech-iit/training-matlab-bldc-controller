@@ -2,11 +2,8 @@
 
 This repository consists of folders containing the MATLAB and Simulink files that are realized following the [How to Design Motor Controllers Using Simscape Electrical](https://www.mathworks.com/videos/series/how-to-design-motor-controllers-using-simscape-electrical.html) video tutorial series.
 
-__Note that most of the MATLAB code is copied from [here](https://github.com/mathworks/Design-motor-controllers-with-Simscape-Electricalhttps://github.com/mathworks/Design-motor-controllers-with-Simscape-Electrical)__.
-
 
 ## ✅ Prerequisites
-
 
 | Knowledge            | Level     |
 | -------------        | ---------- |
@@ -30,22 +27,27 @@ The purpose of this project is to implement a speed control system for a simple 
 ## Main Flow
 
 This section shows the main steps I followed to achieve the goal.
-  
-1. [Simulink onramp](https://www.mathworks.com/learn/tutorials/simulink-onramp.html)
-2. [Stateflow onramp](https://www.mathworks.com/learn/tutorials/stateflow-onramp.html)
-3. BLDC Theory from different sources
-    1. [An Introduction to Brushless DC Motors](https://www.youtube.com/watch?v=gNpoTPzEkco)
-    2. [Brushless DC electric motor](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor)
-    3. [bldc-motor-control](https://www.mathworks.com/solutions/power-electronics-control/bldc-motor-control.html)
-4. Simulink implementation simulating the Back-EMF Voltage of a BLDC Motor
-5. Implementing a Three-Phase Inverter to drive the BLDC motor
-6. Implementing the commutation logic in order control a BLDC motor at constant speed.
-    1. Implementing the PID controller that lets us control the motor at different speeds and simulate motor response.
-    2. Replace the commutation logic with a new one using Stateflow.
-7. Trying to add a PWM Control with the aim to achieve a more realistic scenarious (⚠ Work in progress).
+
+1. **Learn**
+    1. [Simulink onramp](https://www.mathworks.com/learn/tutorials/simulink-onramp.html)
+    2. [Stateflow onramp](https://www.mathworks.com/learn/tutorials/stateflow-onramp.html)
+    3. BLDC Theory from different sources
+        1. [An Introduction to Brushless DC Motors](https://www.youtube.com/watch?v=gNpoTPzEkco)
+        2. [Brushless DC electric motor](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor)
+        3. [bldc-motor-control](https://www.mathworks.com/solutions/power-electronics-control/bldc-motor-control.html)
+2. **Code**
+    1. Simulink implementation simulating the Back-EMF Voltage of a BLDC Motor
+    2. Implementing a Three-Phase Inverter to drive the BLDC motor
+    3. Implementing the commutation logic in order control a BLDC motor at constant speed.
+        1. Implementing the PID controller that lets us control the motor at different speeds and simulate motor response.
+        2. Replace the commutation logic with a new one using Stateflow.
+    4. Trying to add a PWM Control with the aim to achieve a more realistic scenarious (⚠ Work in progress).
 
 __Note__:
-Each folder contains a README that shows the main work of the relative step.
+- Each folder contains a README that shows the main work of the relative step.
+- Most of the MATLAB code in this repository is copied from [here](https://github.com/mathworks/Design-motor-controllers-with-Simscape-Electricalhttps://github.com/mathworks/Design-motor-controllers-with-Simscape-Electrical).
+- All the sources in this repository has been tested on Matlab R2021a.
+
 
 
 ## 👀 See also
