@@ -6,7 +6,7 @@
 The provided model lets you simulate a BLDC motor which is driven by a three-phase inverter. See the image below.
 
 
-| ![](block_diagram.PNG) |
+| ![](assets/block_diagram.PNG) |
 | :---------------: |
 
 In this model we are modeling the commutation logic to dynamically change the switch pattern for a continuous rotation of the rotor.
@@ -22,7 +22,7 @@ __Note__: that in this model we used and ideal voltage source. But, in reality, 
 
 | CONSTANT SPEED           | VARIABLE SPEED         |
 | :--------------:         | :--------:             |
-| ![](const_animation.gif) | ![](dyn_animation.gif) |
+| ![](assets/const_animation.gif) | ![](assets/dyn_animation.gif) |
 
 ## Usage
 

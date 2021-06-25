@@ -6,7 +6,7 @@
 The provided model lets you simulate a BLDC motor which is driven by a three-phase inverter. See the image below.
 
 
-| ![](block_diagram.PNG) |
+| ![](assets/block_diagram.PNG) |
 | :---------------: |
 
 In this model we are modeling the commutation logic using a Truth-Table within a Stateflow chart.
@@ -25,9 +25,9 @@ Dividing a complete motor rotation in 6 sectors, we obtain 6 different angles of
 The following Truth-Table take the angle as an input and return the right pattern switch for Three-Phase Inverter.
 
 
-| ![](condition_table.PNG) | 
+| ![](assets/condition_table.PNG) | 
 | :----------------------: |
-| ![](action_table.PNG)    ||
+| ![](assets/action_table.PNG)    ||
 
 ## Usage
 
