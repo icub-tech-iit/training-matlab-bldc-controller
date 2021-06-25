@@ -39,12 +39,12 @@ This section shows the main steps I followed to achieve the goal.
 ---
 
 ### Code
-1. Simulink implementation simulating the Back-EMF Voltage of a BLDC Motor
-2. Implementing a Three-Phase Inverter to drive the BLDC motor
-3. Implementing the commutation logic in order control a BLDC motor at constant speed.
-    1. Implementing the PID controller that lets us control the motor at different speeds and simulate motor response.
-    2. Replace the commutation logic with a new one using Stateflow.
-4. Trying to add a PWM Control with the aim to achieve a more realistic scenarious (⚠ Work in progress).
+1. [Simulink implementation simulating the Back-EMF Voltage of a BLDC Motor](1_Back-EMF_Voltage_of_a_BLDC_Motor)
+2. [Implementing a Three-Phase Inverter to drive the BLDC motor](2_Three-Phase_Inverter_to_drive_the_BLDC_motor)
+3. [Implementing the commutation logic in order control a BLDC motor at constant speed](3_Commutation_Logic_with_PID_Controller).
+    1. [Implementing the PID controller that lets us control the motor at different speeds and simulate motor response](3_Commutation_Logic_with_PID_Controller).
+    2. [Replace the commutation logic with a new one using Stateflow](3_Commutation_Logic_with_PID_Controller/Stateflow_version).
+4. [Trying to add a PWM Control with the aim to achieve a more realistic scenarious](4_PWM_Control) (⚠ Work in progress).
 
 __Note__:
 - Each folder contains a README that shows the main work of the relative step.
