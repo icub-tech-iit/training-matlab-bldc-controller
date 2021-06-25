@@ -6,7 +6,7 @@
 The provided model lets you simulate a BLDC motor which is driven by a three-phase inverter. See the image below.
 
 
-| ![](block_diagram.png) |
+| ![](block_diagram.PNG) |
 | :---------------: |
 
 In the model, the BLDC motor is set up to have a single pole pair in the rotor and the three-phase inverter is driven with a static switching pattern simultaneously energizing phases A and C. The following animation shows the resulting rotor alignment.
