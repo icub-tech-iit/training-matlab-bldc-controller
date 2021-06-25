@@ -1,4 +1,4 @@
-# Introducing the Commutation Logic usign Stateflow
+# Introducing the Commutation Logic using Stateflow
 
 
 ## 🛠 Model and Setup
